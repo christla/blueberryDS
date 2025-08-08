@@ -1,0 +1,6 @@
+@import './tokens.css';
+
+/* Base element resets can be managed by consumer Tailwind; this file provides variables only */
+:root, .dark {
+  color-scheme: light dark;
+}
