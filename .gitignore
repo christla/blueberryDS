@@ -1,0 +1,13 @@
+node_modules
+.pnpm-store
+pnpm-lock.yaml
+.DS_Store
+.vscode
+.idea
+.env
+.env.*
+coverage
+/dist
+/apps/**/dist
+/packages/**/dist
+**/.turbo

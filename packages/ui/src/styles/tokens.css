@@ -1,0 +1,35 @@
+:root {
+  --color-bg: 255 255 255;
+  --color-fg: 17 24 39;
+  --color-muted: 107 114 128;
+
+  --color-primary: 99 102 241; /* indigo-500 */
+  --color-primary-foreground: 255 255 255;
+
+  --color-secondary: 226 232 240; /* slate-200 */
+  --color-secondary-foreground: 15 23 42;
+
+  --color-destructive: 239 68 68; /* red-500 */
+  --color-destructive-foreground: 255 255 255;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+  --color-bg: 15 23 42;
+  --color-fg: 241 245 249;
+  --color-muted: 148 163 184;
+
+  --color-primary: 129 140 248; /* indigo-400 */
+  --color-primary-foreground: 255 255 255;
+
+  --color-secondary: 30 41 59; /* slate-800 */
+  --color-secondary-foreground: 226 232 240;
+
+  --color-destructive: 248 113 113; /* red-400 */
+  --color-destructive-foreground: 255 255 255;
+}
